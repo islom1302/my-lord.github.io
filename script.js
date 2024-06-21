@@ -1,6 +1,6 @@
 async function fetchData() {
-    const sheetId = 'YOUR_SHEET_ID';
-    const apiKey = 'YOUR_API_KEY';
+    const sheetId = '1YtYM47rjitnBM_IEOKk5S9mV14taENMnUqUG9BYp9-0';
+    const apiKey = 'AIzaSyDVHHIUfRwuJ21ZahOpW6_iR4nTNYYvSKw';
     const range = 'Sheet1!A2:E'; // Adjust the range according to your sheet
 
     const url = `https://sheets.googleapis.com/v4/spreadsheets/${sheetId}/values/${range}?key=${apiKey}`;
